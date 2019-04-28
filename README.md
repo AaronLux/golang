@@ -1,2 +1,2 @@
-# go-cryptology
-go and cryptology
+# golang
+todo
