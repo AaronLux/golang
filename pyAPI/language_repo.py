@@ -1,9 +1,9 @@
-#coding=utf-8
+
 import requests
 import pygal
 from pygal.style import LightColorizedStyle as LCS, LightenStyle as LS
 
-language = "go"
+language = "python"
 condition = "stars"
 
 url = "https://api.github.com/search/repositories?q=language:"+language+"&sort="+condition+"stars"
