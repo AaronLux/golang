@@ -40,17 +40,17 @@ def do_upload(save_name):
 def do_json():
     data = request.json
     message = data.get('message')
-    re = {}
-    re['message'] = 'Your message is %s.' % message
-    re['status'] = 'success'
-    return  re
+    resp = {}
+    resp['message'] = 'Your message is %s.' % message
+    resp['status'] = 'success'
+    return  resp
 
 def main():
     # 阻塞的服务器，使用其他方式来实现非阻塞服务器
     # run(host='0.0.0.0', port=9001)
 
     # 通过paste 实现非阻塞的服务器   cmd:easy_install paste
-    run(server='paste', host='0.0.0.0', port=9001)
+    run(server='paste', host='0.0.0.0', port=9999)
 if __name__ == "__main__":
     sys.exit(main())
 
