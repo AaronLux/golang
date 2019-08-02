@@ -1,7 +1,8 @@
 #coding:utf-8
+import random
 
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, String, DateTime, Boolean
+from sqlalchemy import Column, Integer, String, DateTime, Boolean, LargeBinary
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
@@ -21,41 +22,49 @@ from sqlalchemy.orm import sessionmaker
 '''
 # 创建对象的基类
 Base = declarative_base()
+
 # 初始化数据库连接，注意要接上charset=utf8否则中文无法支持
-engine = create_engine("mysql://root:@localhost/news?charset=utf8")
+engine = create_engine("mysql+pymysql://root:123456@localhost/news?charset=utf8")
 # 创建DBSession类型
 DBSession = sessionmaker(bind=engine)
 
 # 定义News对象
-class News(Base):
-    __tablename__ = 'news'
-    id = Column(Integer, primary_key=True)
-    title = Column(String(200), nullable=False)
-    content = Column(String(2000), nullable=False)
-    types = Column(String(10), nullable=False)
-    image = Column(String(300),)
-    author = Column(String(20),)
-    view_count = Column(Integer)
-    created_at = Column(DateTime)
-    is_valid = Column(Boolean)
+class Centroid_2_id(Base):
+    __tablename__ = 'centroid_2_id_result'
+    centroid_index_id = Column(String(200))
+    centroid_seq_id = Column(Integer(), nullable=False)
+    clustered_id = Column(Integer(),  primary_key=True)
+    id_seq_id = Column(Integer(), nullable=False)
+    centroid = Column(LargeBinary())
+    id_osg_url = Column(String(100),)
+    id_number = Column(String(18))
 
-'''
+
+
 # 简单测试
 # 如果表不存在就创建表
 Base.metadata.create_all(engine)
 
 # 创建session对象:
 session = DBSession()
-# 创建新User对象，新增一条测试数据
-news01 = News(title='标题1', content = 'content01', types = 'baidu', 
-    image = '/static/img/01.jpg', author = 'jack', view_count = 3)
+# 创建对象，新增一条测试数据
+
+data = Centroid_2_id(
+    centroid_index_id = "200",
+    centroid_seq_id = 300,
+    clustered_id = 50330+random.randint(1,199999),
+    id_seq_id = 600,
+    centroid = bytes('sdf',encoding='utf8'),
+    id_osg_url = "200",
+    id_number = "200"
+)
 # 添加到session:
-session.add(news01)
+session.add(data)
 # 提交即保存到数据库:
 session.commit()
 # 关闭session:
 session.close()
-'''
+
 
 # orm的测试类
 class OrmTest(object):
@@ -65,10 +74,14 @@ class OrmTest(object):
 
     # 添加数据
     def add_one(self):
-        new_obj = News(
-            title = '标题20180202',
-            content = '内容20180202',
-            types = '百家'
+        new_obj = Centroid_2_id(
+            centroid_index_id = "200",
+            centroid_seq_id = 300,
+            clustered_id = 50220+random.randint(1,199999),
+            id_seq_id = 600,
+            centroid = bytes('sdf',encoding='utf8'),
+            id_osg_url = "200",
+            id_number = "200"
             )
         self.session.add(new_obj)
         self.session.commit()
@@ -78,7 +91,15 @@ class OrmTest(object):
     def add_more(self):
         add_list = []
         for i in range(10):
-            new_obj = News(title='标题%s'%str(i),content='内容%s'%str(i),types='百家%s'%str(i))
+            new_obj = Centroid_2_id(
+                centroid_index_id = "200"+str(i),
+                centroid_seq_id = 300+i,
+                clustered_id = 500+i,
+                id_seq_id = 600+i,
+                centroid = bytes('sdf')+bytes(i),
+                id_osg_url = "200"+str(i),
+                id_number = "200"+str(i)
+            )
             self.session.add(new_obj)
             add_list.append(new_obj)
         self.session.commit()
@@ -86,13 +107,13 @@ class OrmTest(object):
 
     # 删除数据
     def delete_data(self):
-        data = self.session.query(News).get(51)
+        data = self.session.query(Centroid_2_id).get(51)
         self.session.delete(data)
         self.session.commit()
 
     # 修改单条数据
     def update_one(self, _id):
-        obj = self.session.query(News).get(_id)
+        obj = self.session.query(Centroid_2_id).get(_id)
         if obj:
             obj.is_valid = 0
             self.session.add(obj)
@@ -104,30 +125,28 @@ class OrmTest(object):
 
     # 修改多条数据
     def update_data(self):
-        # filter_by的使用方法
-        # data_list = self.session.query(News).filter_by(is_valid = 0)
 
         # filter的使用方法
-        data_list = self.session.query(News).filter(News.id > 45)
+        data_list = self.session.query(Centroid_2_id).filter(Centroid_2_id.clustered_id > 45)
         for data in data_list:
-            print(data.title)
-            data.is_valid = 1
+            print(data.id_number)
+            data.id_osg_url = "new string"
             self.session.add(data)
         self.session.commit()
 
     # 获取一条数据
     def get_one(self):
-        return self.session.query(News).get(1)
+        return self.session.query(Centroid_2_id).get(1)
 
     # 获取多条数据
     def get_more(self):
-        return self.session.query(News).filter_by(is_valid = 1)
+        return self.session.query(Centroid_2_id).filter_by(id_number = 200)
 
 
 def main():
     obj = OrmTest()
-    # rst = obj.add_one()
-    # print('id:%s, title:%s,content:%s,types = %s' % (rst.id,rst.title,rst.content,rst.types))
+    rst = obj.add_one()
+    print(rst)
 
     # 添加多条数据
     # rst = obj.add_more()

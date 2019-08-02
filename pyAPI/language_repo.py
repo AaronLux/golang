@@ -9,7 +9,6 @@ condition = "stars"
 url = "https://api.github.com/search/repositories?q=language:"+language+"&sort="+condition+"stars"
 r = requests.get(url)
 print("status code:", r.status_code)
-#TODO python 不用关流的吗？
 
 #将API响应存储在一个变量中
 response_dict = r.json()
