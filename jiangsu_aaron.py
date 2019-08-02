@@ -103,7 +103,8 @@ if __name__ == '__main__':
     # 初始化创建session
     session = DBSession()
 
-    new_obj = Centroid_2_id_result(
+    """
+    test_obj = Centroid_2_id_result(
         centroid_index_id = "200",
         centroid_seq_id = 300,
         clustered_id = random.randint(1,10000),
@@ -115,6 +116,7 @@ if __name__ == '__main__':
 
     session.add(new_obj)
     session.commit()
+    """
 
     # 撞库后的总数量
     tally = session.query(Pengzhuang_result).count()
@@ -141,7 +143,7 @@ if __name__ == '__main__':
             "col_id": url_centroid_index_id,
             "ids": url_id_index_id
         }
-        uri = "/engine/static-feature/v1/databases/"+col_id+"/batch_get"
+        uri = "/engine/static-feature/v1/databases/" + col_id + "/batch_get"
 
         url = viperAddr + uri
         r = requests.post(url,json=req_json)
@@ -149,9 +151,31 @@ if __name__ == '__main__':
         items = r.json()["items"]
         for item in items:
             extra_info = item["extra_info"]
-            # TODO 请求第三方接口获取身份证信息
-
+            blob = item["feature"]["blob"]
+            image_id = item["image_id"]
+            # 第三方接口调用
             url = ""
+            req_json_for_js = {
+                "id" : extra_info,
+                "addImg" : False
+            }
+            resp = requests.post(url,json = req_json_for_js)
+            infos = resp.json()["info"]
+            for info in infos:
+                name = info["name"]
+                idCard = info["idCard"]
 
-
-        # time.sleep(1000)
+                #写入数据库
+                obj = Centroid_2_id_result(
+                    centroid_index_id = url_centroid_index_id
+                    centroid_seq_id = result.centroid_seq_id,
+                    clustered_id = result.centroid_seq_id,
+                    id_seq_id = url_id_index_id,
+                    centroid = blob
+                    id_osg_url = image_id,
+                    id_number = idCard
+                )
+                session.add(new_obj)
+                session.commit()
+                # TODO 待控制
+                # time.sleep(1000)
