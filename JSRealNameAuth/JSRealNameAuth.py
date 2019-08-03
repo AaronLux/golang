@@ -128,7 +128,8 @@ for i in range(1,tally):
             parameter_id_osg_url = feature_item["image_id"]
 
             # 第三方接口调用
-            url = "http://localhost:9999/json"
+            # url = "http://localhost:9999/json"
+            url = "http://hysr.gat.js/rest/webface/queryInfoById"
             req_json_for_js = {
                 "id" : extra_info,
                 "addImg" : False
