@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2137d3a2-b8e0-47da-b5bd-1ec37f9810e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JSRealNameAuth/MySQLConfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSRealNameAuth/testAPI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittestDemo/jsv1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03flowControl/forDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/03flowControl/forDemo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bottle/BottleDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bottle/BottleDemo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JSRealNameAuth/JSRealNameAuth.py" beforeDir="false" afterPath="$PROJECT_DIR$/JSRealNameAuth/JSRealNameAuth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSRealNameAuth/testAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/JSRealNameAuth/testAPI.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,15 +23,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JSRealNameAuth/JSRealNameAuth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="31" column="5" selection-start-line="31" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="322">
+              <caret line="136" column="13" lean-forward="true" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
               <folding>
                 <element signature="e#146#157#0" expanded="true" />
-                <element signature="e#1337#1538#0" />
-                <element signature="e#1898#2097#0" />
               </folding>
             </state>
           </provider>
@@ -42,9 +37,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/time.pyi">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-855" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -56,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSRealNameAuth/MySQLConfig.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="114">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -68,11 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unittestDemo/jsv1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
-              <folding>
-                <element signature="e#121#136#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1672">
+              <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -80,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bottle/BottleDemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
+            <state relative-caret-position="665">
               <caret line="41" column="31" selection-end-line="60" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -92,22 +82,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSRealNameAuth/testAPI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding>
-                <element signature="e#1#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="950">
+              <caret line="53" selection-start-line="53" selection-end-line="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/sqlalchemy/sql/schema.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="4263" column="8" selection-start-line="4263" selection-start-column="8" selection-end-line="4263" selection-end-column="8" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/JSRealNameAuth/resp.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -133,6 +116,8 @@
     <findStrings>
       <find>&gt;&gt;&gt;</find>
       <find>500</find>
+      <find>id_seq_id</find>
+      <find>centroid_index_id</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -188,18 +173,18 @@
         <option value="$PROJECT_DIR$/jiangsu_aaron.py" />
         <option value="$PROJECT_DIR$/JSRealNameAuth.py" />
         <option value="$PROJECT_DIR$/JSRealNameAuth/config.json" />
-        <option value="$PROJECT_DIR$/JSRealNameAuth/testAPI.py" />
         <option value="$PROJECT_DIR$/03flowControl/forDemo.py" />
-        <option value="$PROJECT_DIR$/JSRealNameAuth/JSRealNameAuth.py" />
         <option value="$PROJECT_DIR$/JSRealNameAuth/MySQLConfig.json" />
+        <option value="$PROJECT_DIR$/JSRealNameAuth/testAPI.py" />
+        <option value="$PROJECT_DIR$/JSRealNameAuth/JSRealNameAuth.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="769" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="129" />
     <option name="y" value="24" />
-    <option name="width" value="1170" />
-    <option name="height" value="1056" />
+    <option name="width" value="1551" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -219,17 +204,7 @@
             <path>
               <item name="pythonGuide" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonGuide" type="462c0819:PsiDirectoryNode" />
-              <item name="03flowControl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonGuide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonGuide" type="462c0819:PsiDirectoryNode" />
               <item name="JSRealNameAuth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonGuide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonGuide" type="462c0819:PsiDirectoryNode" />
-              <item name="time" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,28 +311,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mysql_ops_v1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonGuide" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyDB" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyDB/mysql_ops_v1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="pyORM" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonGuide" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -380,13 +333,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="testAPI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonGuide" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JSRealNameAuth" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JSRealNameAuth/testAPI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.jiangsu_aaron" />
+        <item itemvalue="Python.testAPI" />
         <item itemvalue="Python.jsv1" />
         <item itemvalue="Python.BottleDemo" />
         <item itemvalue="Python.pyORM" />
-        <item itemvalue="Python.mysql_ops_v1" />
       </list>
     </recent_temporary>
   </component>
@@ -410,33 +385,44 @@
       <workItem from="1564624387695" duration="40000" />
       <workItem from="1564626611555" duration="3352000" />
       <workItem from="1564709633489" duration="15589000" />
-      <workItem from="1564738670433" duration="23739000" />
+      <workItem from="1564738670433" duration="28427000" />
+      <workItem from="1564833897531" duration="1861000" />
+      <workItem from="1564836524417" duration="884000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156705000" />
+    <option name="totallyTimeSpent" value="164138000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="129" y="24" width="1551" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.120872974" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15104517" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.30021143" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.30021143" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="4" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32980973" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.25264272" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.25168538" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32980973" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="SciView" order="2" weight="0.32939634" />
@@ -486,19 +472,13 @@
     <SUITE FILE_PATH="coverage/pythonGuide$BottleDemo.coverage" NAME="BottleDemo Coverage Results" MODIFIED="1564801517947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bottle" />
     <SUITE FILE_PATH="coverage/pythonGuide$04comment.coverage" NAME="04comment Coverage Results" MODIFIED="1563793818272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01变量和简单的数据类型" />
     <SUITE FILE_PATH="coverage/pythonGuide$write_test.coverage" NAME="write_test Coverage Results" MODIFIED="1564712428678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyDB" />
-    <SUITE FILE_PATH="coverage/pythonGuide$jiangsu_aaron.coverage" NAME="jiangsu_aaron Coverage Results" MODIFIED="1564809403132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonGuide$jiangsu_aaron.coverage" NAME="jiangsu_aaron Coverage Results" MODIFIED="1564836893510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonGuide$pyORM.coverage" NAME="pyORM Coverage Results" MODIFIED="1564741183975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0731temp" />
     <SUITE FILE_PATH="coverage/pythonGuide$list.coverage" NAME="list Coverage Results" MODIFIED="1563794177944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02列表" />
     <SUITE FILE_PATH="coverage/pythonGuide$mysql_ops_v1.coverage" NAME="mysql_ops_v1 Coverage Results" MODIFIED="1564713583902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyDB" />
+    <SUITE FILE_PATH="coverage/pythonGuide$testAPI.coverage" NAME="testAPI Coverage Results" MODIFIED="1564832762506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JSRealNameAuth" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/file&amp;e/withJSON.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/file&amp;e/number_reader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -765,39 +745,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unittestDemo/jsv1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
-          <folding>
-            <element signature="e#121#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittestDemo/name.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bottle/BottleDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="41" column="31" selection-end-line="60" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/0731temp/mysqlOps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/time.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/03flowControl/forDemo.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -806,37 +762,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSRealNameAuth/testAPI.py">
+    <entry file="file://$PROJECT_DIR$/JSRealNameAuth/MySQLConfig.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="114">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittestDemo/jsv1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bottle/BottleDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="41" column="31" selection-end-line="60" />
           <folding>
-            <element signature="e#1#11#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/time.pyi">
+    <entry file="file://$PROJECT_DIR$/JSRealNameAuth/testAPI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-855" />
+        <state relative-caret-position="950">
+          <caret line="53" selection-start-line="53" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSRealNameAuth/resp.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittestDemo/name.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JSRealNameAuth/JSRealNameAuth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="31" column="5" selection-start-line="31" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="322">
+          <caret line="136" column="13" lean-forward="true" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
           <folding>
             <element signature="e#146#157#0" expanded="true" />
-            <element signature="e#1337#1538#0" />
-            <element signature="e#1898#2097#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSRealNameAuth/MySQLConfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>

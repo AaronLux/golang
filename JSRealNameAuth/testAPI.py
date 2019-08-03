@@ -43,19 +43,13 @@ def rsp_json():
                 }
             ]
         }  
-        return data
+    return data
 
 def main():
     # 阻塞的服务器，使用其他方式来实现非阻塞服务器
     # run(host='0.0.0.0', port=9001)
 
     # 通过paste 实现非阻塞的服务器  easy_install paste
-    run(server='paste', host='0.0.0.0', port=9999)
+    run(server='paste', host='0.0.0.0', port=9091)
 if __name__ == "__main__":
     sys.exit(main())
-
-         for feature_item in feature_items:
-126             extra_info = feature_item["extra_info"]
-127             parameter_centroid = feature_item["feature"]["blob"]
-128             parameter_id_osg_url = feature_item["image_id"]
-
