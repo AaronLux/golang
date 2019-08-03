@@ -41,8 +41,12 @@ def do_json():
     data = request.json
     message = data.get('message')
     resp = {}
-    resp['message'] = 'Your message is %s.' % message
-    resp['status'] = 'success'
+    resp['rtn'] = 0
+    resp['msg'] = 'Your message is %s.' % message
+    resp['info'] = {
+        "idCard":"322535199502035652",
+        "name" : " aaron"
+    }
     return  resp
 
 def main():
