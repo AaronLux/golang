@@ -4,6 +4,6 @@
   "MySQLPassword": "123456",
   "MySQLDBName": "matrix",
 
-  "VIPERAddr": "10.111.32.112:30080"
-
+  "VIPERAddr": "10.111.32.112:30080",
+  "DB_ID":""
 }
