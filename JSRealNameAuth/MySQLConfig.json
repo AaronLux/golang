@@ -1,9 +1,0 @@
-{
-  "MySQLAddr": "localhost",
-  "MySQLUserName": "root",
-  "MySQLPassword": "123456",
-  "MySQLDBName": "matrix",
-
-  "VIPERAddr": "10.111.32.112:30080",
-  "DB_ID":"5d38cdf6-91ec-4840-8c56-95732d6f9000"
-}
